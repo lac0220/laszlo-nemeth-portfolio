@@ -29,9 +29,7 @@ export default function Navbar() {
             <Language />
             <ul>
                 <li>
-                    <div className="hamburger"
-                        aria-label="Navigation" 
-                        onClick={handleToggle}>
+                    <div className="hamburger" onClick={handleToggle}>
                         <Hamburger isOpen={navbarOpen}/>
                     </div>    
                 </li>
