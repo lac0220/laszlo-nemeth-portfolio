@@ -1,0 +1,24 @@
+@import '../../App.scss';
+					
+footer {
+    visibility: hidden;
+} 
+        
+@media screen and (max-width: 700px) { 
+    
+    footer {
+        visibility: visible;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin: auto -20px;
+        padding: 5px 0 10px;
+        border-top: 2px solid $first-text-color;
+        text-align: center;
+        background-color: $background-color-first;
+        p {
+            font-size: 1rem;
+            color: $first-text-color;       
+        } 
+    }
+}

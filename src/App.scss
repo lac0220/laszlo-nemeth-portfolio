@@ -1,0 +1,183 @@
+@import 'components/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1.25rem;
+}
+
+html, 
+body {
+    margin-left: 100px;
+    padding: 0 40px; 
+    height: 100vh;  
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    font-family: $main-font;
+    background: rgb(44, 6, 6);
+    background: linear-gradient(0deg, rgb(44, 6, 6) 0%, rgb(0, 2, 31) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    h1 {
+        padding-top: 40px;
+        text-align: center;
+        text-shadow: 2px 2px gray, 1px 1px gray;					
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: $first-text-color;
+    }
+
+    p {
+        color: $first-text-color;	
+    }
+
+    hr:nth-child(2) {
+        margin: auto;  
+        width: 30%;
+        border: 2px solid $main-hover;
+        border-radius: 100%; 
+    }
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//text wrap
+.hyphens {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    hyphenate-limit-chars: 6 3 3;
+}
+
+//contact form text area and submit
+%standard {
+    font-family: $main-font;
+    color: $second-text-color;
+}
+
+//contact form
+::placeholder {
+    font-weight: bold;
+    color: $second-text-color;
+}
+
+//home page typing animation
+%list {
+    overflow: hidden;
+    animation: typing 5s steps(100, end) both;
+    white-space: nowrap;
+    letter-spacing: 5px; 
+}
+
+// home page typing text effect
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+//pulsing animation
+.pulse img {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {transform: scale(0.9);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(0.9);}
+}
+
+#background-color-coffee {
+    background-color: #d6c6b4;
+}
+
+#background-color-quotes {
+    background-color: #116466;
+}
+
+#background-color-jokes {
+    background-color: #885d0f;
+}
+
+#background-color-model {
+    background-color: $first-text-color;
+}
+
+#background-color-wiki {
+    background-color: #A7BBD7;
+}
+
+#background-color-e-commerce,
+#background-color-work {
+    background-color: $second-text-color;
+}
+
+@media screen and (max-width: 1200px) {
+
+    html, 
+    body {
+        padding: 0 25px;
+        background: rgb(0,2,31);
+        background: linear-gradient(0deg, rgba(0,2,31,1) 0%, rgba(26,0,0,1) 25%, rgba(0,2,31,1) 75%); 
+        background-repeat: repeat;
+    }
+
+    section {
+        h1 {
+            font-size: 1.875rem;
+        }
+
+        p {
+            font-size: 1.125rem;
+        }
+
+        hr:nth-child(2) {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+  
+    html, 
+    body {
+        margin: 45px 0 0;
+        padding: 0 10px;
+    }
+
+    //keeping footer at the bottom
+    section {
+        min-height: calc(100vh - 34px);
+        h1 {
+            padding: 0;
+            font-size: 1.5625rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
