@@ -1,7 +1,7 @@
 @import '../../../App.scss';
 
 .home {
-    padding-top: 65px;
+    padding: 65px 0 20px;
     text-align: center;
     font-weight: bold;
     color: $first-text-color;
@@ -110,7 +110,7 @@
             
 @media only screen and (max-width: 1570px) {
     .home {
-        padding-top: 50px;
+        padding: 50px 0 20px;
         ul {
             flex-direction: column-reverse;
             li:nth-child(1) {
@@ -199,7 +199,7 @@
 
     .home {
         margin: auto;
-        padding-top: 10px;
+        padding: 10px 0 20px;
         width: 83%;
         ul {
             margin: auto;

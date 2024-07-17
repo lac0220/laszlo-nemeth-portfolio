@@ -1,7 +1,7 @@
 @import '../../../App.scss';
 
 .contact {
-    padding-top: 20px;
+    padding: 20px 0 15px;
     &_container {
         display: flex;
         flex-direction: row;
@@ -144,7 +144,7 @@
 @media only screen and (max-width: 1200px) {
   
     .contact {
-        padding-top: 15px;
+        padding: 15px 0;
         &_container {
             form {
                 font-size: 1.2rem;
@@ -243,7 +243,7 @@
 @media only screen and (max-width: 700px) {
   
     .contact {
-        padding: 10px 0 20px;
+        padding: 10px 0 13px;
         &_container {
             form {
                 width: 80%;
