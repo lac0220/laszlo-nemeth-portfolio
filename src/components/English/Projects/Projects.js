@@ -22,7 +22,7 @@ export default function Projects () {
             <h1>Projects</h1>
             <hr />
             <div className="projects"> 
-                <p>My intention is to develop<span style={{fontWeight: "bold", color: "#FF6661"}}> user-friendly websites and web applications</span> with a responsive design. I enjoy turning ideas into real things, <span style={{fontWeight: "bold", color: "#FF6661"}}> adding motion to elements,</span> and maintaining high discoverability for an <span style={{fontWeight: "bold", color: "#FF6661"}}>enjoyable user experience</span> while using various web technologies and software development tools:</p>
+                <p>My intention is to develop<span style={{fontWeight: "bold", color: "#FF6661"}}> user-friendly websites and web applications</span> with a responsive design. I enjoy turning ideas into real things, <span style={{fontWeight: "bold", color: "#FF6661"}}> adding motion to elements,</span> and maintaining high discoverability for an <span style={{fontWeight: "bold", color: "#FF6661"}}>enjoyable user experience</span> using various web technologies and software development tools:</p>
                 <ul>
                     <li><i><FontAwesomeIcon icon={faHtml5} aria-label="HTML5 icon" title="HTML5" /></i></li>
                     <li><i><FontAwesomeIcon icon={faSass} aria-label="SCSS icon" title="SCSS" /></i></li>
