@@ -77,7 +77,7 @@ export default function WorkHistory () {
                             <li><span><span style={{fontWeight: "bold"}}>Analysing</span> the requirements of <span style={{fontWeight: "bold"}}>specific user stories</span> in ECMS collateral management services</span></li>
                             <li><span><span style={{fontWeight: "bold"}}>Executing test cases</span> with an agile methodology approach</span></li>
                             <li><span>Simulating client behaviour in a BAT environment by <span style={{fontWeight: "bold"}}>sending SWIFT messages</span> and monitoring them with <span style={{fontWeight: "bold"}}>SQL in databases</span></span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Documenting test results </span>and <span style={{fontWeight: "bold"}}>reporting defects</span> to developers <span style={{fontWeight: "bold"}}>via Jira tasks</span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Documenting test results </span>and <span style={{fontWeight: "bold"}}>reporting bugs</span> to developers <span style={{fontWeight: "bold"}}>via Jira</span></span></li>
                             <li><span>Liaising frequently with Test Coordinators and regularly <span style={{fontWeight: "bold"}}>updating the testing status in Xray</span></span></li>
                         </ul>
                         <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>SQL, XML, Jira, Xray, Xact Web Portal application</p>
