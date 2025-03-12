@@ -62,7 +62,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>BOOTCAMP HACKATHON</h3>
+                        <h3>Bootcamp Hackathon</h3>
                         <hr />
                         <p>The challenge was to design a<span style={{fontWeight: "bold"}}> responsive, static website for a coffee shop</span>. It contains:</p>
                         <ul>
@@ -101,7 +101,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>BOOTCAMP FINAL PROJECT</h3>
+                        <h3>Bootcamp Final Project</h3>
                         <hr />
                         <p>The mobile-friendly <span style={{fontWeight: "bold"}}>web application uses an API to generate</span> random and daily inspirational <span style={{fontWeight: "bold"}}>quotes</span>. It gives the user features like:</p>
                         <ul>
@@ -140,7 +140,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>FREELANCING</h3>
+                        <h3>Freelancing</h3>
                         <hr />
                         <p>Random Jokes Generator<span style={{fontWeight: "bold"}}> fetches API data</span> from an URL and <span style={{fontWeight: "bold"}}>gives access to the Jokes platform</span>. In the meantime, the web application also keeps counting the number of jokes read.</p>
                         <p><u><span style={{fontWeight: "bold"}}> Used third-party NPM packages:</span></u></p>
@@ -178,7 +178,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>FREELANCING</h3>
+                        <h3>Freelancing</h3>
                         <hr />
                         <p>The<span style={{fontWeight: "bold"}}> search engine uses the Wikipedia API,</span> which returns the first five listed hits and shows the rest on request. The hits forward us to the specific Wikipedia entry, the so-called wiki page.</p>
                         <p><u><span style={{fontWeight: "bold"}}> Used third-party NPM packages:</span></u></p>
@@ -217,7 +217,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>FREELANCING</h3>
+                        <h3>Freelancing</h3>
                         <hr />
                         <p>The web app is designed to be<span style={{fontWeight: "bold"}}> mobile-friendly for a model and artist, </span>with a gallery and a blog section. The contact form is <span style={{fontWeight: "bold"}}>set up with an EmailsJS account</span> for sending messages to a Gmail email address.</p>
                         <p><u><span style={{fontWeight: "bold"}}> Used third-party NPM packages:</span></u></p>
@@ -258,7 +258,7 @@ export default function Projects () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>FREELANCING</h3>
+                        <h3>Freelancing</h3>
                         <hr />
                         <p>The web application contains two pages listing all<span style={{fontWeight: "bold"}}> products from a MySQL database</span> and <span style={{fontWeight: "bold"}}>adding a product with a unique SKU</span> + additional details like name, price, size, height, width, length, and weight. These products can also be deleted by checking the box. The database is <span style={{fontWeight: "bold"}}>hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost and managed with phpMyAdmin</span>.</p>
                         <p><u><span style={{fontWeight: "bold"}}> Used third-party NPM packages:</span></u></p>

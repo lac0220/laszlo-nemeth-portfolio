@@ -22,7 +22,7 @@ export default function Home() {
                             Laszlo Nemeth
                         </Link>  
                     </p> 
-                    <p>FE Developer <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> UAT Specialist</p>
+                    <p>Product Manager <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> FE Developer</p>
                 </li>
                 <li>
                     <img src={img_avatar} alt="Avatar" />

@@ -42,15 +42,15 @@ export default function Navbar() {
                 <li>
                     <h3>Laszlo Nemeth</h3>
                     <hr/>
-                    <p>FE Developer</p>
+                    <p>Product Manager</p>
                     <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" />
-                    <p>UAT Specialist</p>
+                    <p>FE Developer</p>
                 </li>
             </ul>
             <ul className={`${navbarOpen ? " showMenu" : ""}`}>
                 <li>
                     <h3>Laszlo Nemeth</h3>
-                    <p>FE Developer <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> UAT Specialist</p>
+                    <p>Product Manager <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> FE Developer</p>
                 </li>
                 <li>
                     <hr />
@@ -108,17 +108,10 @@ export default function Navbar() {
                         target="_blank"
                         ><FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Visit me on GitHub" />
                     </a>
-                    <a
-                        href="https://codepen.io/lac0220/"
-                        aria-label="Codepen"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        ><FontAwesomeIcon icon={faCodepen} aria-label="Codepen icon" title="Visit me on Codepen" />
-                    </a>
                 </li> 
                 <li>
                     <p>Copyright ©</p>
-                    <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2024</span></p>
+                    <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2025</span></p>
                 </li>
             </ul>
         </nav>        
