@@ -11,9 +11,6 @@
     <a href="https://www.linkedin.com/in/nemeth0220">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" title="Visit me on Linkedin" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://codepen.io/lac0220/">
-        <img src="https://img.shields.io/badge/Codepen-black?style=for-the-badge&logo=codepen&logoColor=white" title="Visit me on Codepen" alt="Codepen Badge"/>
-    </a>
 </div>
 
 <div align="center">
@@ -23,16 +20,16 @@
 <br />
 
 <div align="center">
-    I am <b>LASZLO NEMETH</b> from <b>Hungary</b> <img src="https://github.com/hampusborgos/country-flags/blob/main/png100px/hu.png" title="Hungarian flag" alt="Hungarian flag" width="22" height="14"/>&nbsp;, currently living in <b>Prague, Czech Republic</b> <img src="https://github.com/hampusborgos/country-flags/blob/main/png100px/cz.png" title="Czech flag" alt="Czech flag" width="22" height="14"/>&nbsp;
+    I am <b>LASZLO NEMETH</b> from Hungary, currently living in Prague, Czech Republic
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" height="30"/>
 </div>
 <br />
 
 🤓 <b>Keen to learn more and more</b> about the core technologies of programming and UI design
 
-💻 Love building user-friendly websites and web applications with a responsive design by <b>using various web technologies and software development tools</b>
+💻 <b>Love turning ideas into real things</b>, adding motion to elements, and maintaining high discoverability for an enjoyable user experience
 
-🔎 <b>To expand my coding skills, I am always open to discussing and joining challenging front-end projects</b>
+🔎 To expand my coding skills, <b>I am always open to discussing and joining challenging front-end projects</b>
 <br />
 
 ---

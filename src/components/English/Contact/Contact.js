@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileScreenButton, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact  () {
 
@@ -80,7 +80,8 @@ export default function Contact  () {
                             />
                         </label>
                     </form>
-                    <p>
+                    <p>By email</p>
+                    <p className="pulse">
                        <a 
                             href="mailto:nemeth0220@gmail.com?subject=Contact"
                             target="_blank"

@@ -23,9 +23,9 @@ export default function WorkHistory () {
                         <h2>MARKETUP S.R.O.</h2>
                         <ul>
                             <li>
-                                <div className="work-history-flip-box pulse" id="background-color-work">
+                                <div className="work-history-flip-box" id="background-color-work">
                                     <div className="work-history-flip-box__triangle" />
-                                    <img src={img_logo_coding} alt="Coding" />                      
+                                    <img src={img_logo_coding} className="pulse" alt="Coding" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
                                     <a 
@@ -50,15 +50,15 @@ export default function WorkHistory () {
                             <li><span><span style={{fontWeight: "bold"}}>Customized user-facing components </span>with the MUI library to meet operational needs</span></li>
                             <li><span>Adjusted proper visual hierarchy and alignment to <span style={{fontWeight: "bold"}}>optimize UI design</span></span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>React.js, TypeScript, CSS, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
+                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>React.js, TypeScript, CSS<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>3</span>, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
                     </li>
                     <li>
                         <h2>CLEARSTREAM S.R.O.</h2>
                         <ul>
                             <li>
-                                <div className="work-history-flip-box pulse" id="background-color-work">
+                                <div className="work-history-flip-box" id="background-color-work">
                                     <div className="work-history-flip-box__triangle" />
-                                    <img src={img_logo_testing} alt="Testing" />                      
+                                    <img src={img_logo_testing} className="pulse" alt="Testing" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
                                     <a 
@@ -89,9 +89,9 @@ export default function WorkHistory () {
                         <h2>CLEARSTREAM S.R.O.</h2>
                         <ul>
                             <li>
-                                <div className="work-history-flip-box pulse" id="background-color-work">
+                                <div className="work-history-flip-box" id="background-color-work">
                                     <div className="work-history-flip-box__triangle" />
-                                    <img src={img_logo_api} alt="API" />                      
+                                    <img src={img_logo_api} className="pulse" alt="API" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
                                     <a 
@@ -110,7 +110,7 @@ export default function WorkHistory () {
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>01/2025 - present</span></p>
                         <hr />
                         <ul></ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>Jira, Jenkins, HTML, JavaScript, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, Visual Studio Code, XML, XSLT, GitHub, GitHub Copilot, D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> Navigator</p>
+                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>Jira, Jenkins, HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, JavaScript, XML, XSLT, GitHub, GitHub Copilot, Visual Studio Code, D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> Navigator</p>
                     </li>
                 </ul>
                 </div>

@@ -38,9 +38,9 @@ export default function Projects () {
                         <h2>GENERIC HIPSTER COFFEE</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-coffee">
+                                <div className="projects-flip-box" id="background-color-coffee">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_logo_coffee} alt="Coffee shop" />
+                                    <img src={img_logo_coffee} className="pulse" alt="Coffee shop" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
@@ -77,9 +77,9 @@ export default function Projects () {
                         <h2>LEGENDARY QUOTES</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-quotes">
+                                <div className="projects-flip-box" id="background-color-quotes">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_logo_quotes} alt="Legendary Quotes" />
+                                    <img src={img_logo_quotes} className="pulse" alt="Legendary Quotes" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
@@ -116,9 +116,9 @@ export default function Projects () {
                         <h2>JOKES GENERATOR</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-jokes">
+                                <div className="projects-flip-box" id="background-color-jokes">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_jokes} alt="Jokes generator" />
+                                    <img src={img_jokes} className="pulse" alt="Jokes generator" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
@@ -154,9 +154,9 @@ export default function Projects () {
                         <h2>WIKI SEARCH ENGINE</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-wiki">
+                                <div className="projects-flip-box" id="background-color-wiki">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_wiki} alt="Wiki search engine" />
+                                    <img src={img_wiki} className="pulse" alt="Wiki search engine" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
@@ -193,9 +193,9 @@ export default function Projects () {
                         <h2>MODEL PORTFOLIO</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-model">
+                                <div className="projects-flip-box" id="background-color-model">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_logo_model} alt="Model portfolio" />
+                                    <img src={img_logo_model} className="pulse" alt="Model portfolio" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
@@ -234,9 +234,9 @@ export default function Projects () {
                         <h2>E-COMMERCE</h2>
                         <ul>
                             <li>
-                                <div className="projects-flip-box pulse" id="background-color-e-commerce">
+                                <div className="projects-flip-box" id="background-color-e-commerce">
                                     <div className="projects-flip-box__triangle" />
-                                    <img src={img_e_commerce} alt="E-commerce" />
+                                    <img src={img_e_commerce} className="pulse" alt="E-commerce" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
                                     <a
