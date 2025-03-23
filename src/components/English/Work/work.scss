@@ -79,7 +79,7 @@
         }
 
         li ul:nth-child(8) {
-            padding: 0 20px 185px 40px;
+            padding: 0 20px 110px 40px;
         }
     }
 }
@@ -96,7 +96,6 @@
         }
     
         li ul:nth-child(8) {
-            // padding: 0 20px 100px 40px;
             font-size: 1.125rem;      
 
         }
@@ -112,9 +111,9 @@
             max-width: 115%;
         }
 
-        // li ul:nth-child(7) {
-        //     padding: 0 20px 95px 40px;
-        // }
+        li ul:nth-child(8) {
+             padding: 0 20px 95px 40px;
+         }
     }
 }
 
@@ -123,18 +122,18 @@
     .work-history ul:nth-child(3) { 
         padding-top: 15px;
         li ul:nth-child(8) {
-            // padding: 0 20px 60px 40px;
+            padding: 0 20px 90px 40px;
             font-size: 1rem;      
         }
     }
 }
 
-// @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
-//     .work-history ul:nth-child(3) li ul:nth-child(7) {
-//         padding: 0 20px 60px 30px; 
-//     }
-// }
+     .work-history ul:nth-child(3) li ul:nth-child(8) {
+         padding: 0 20px 90px 30px; 
+     }
+ }
 
 @media only screen and (max-width: 390px) {
 
@@ -145,8 +144,8 @@
             max-width: 125%;
         }
 
-        // li ul:nth-child(7) {
-        //     padding: 0 10px 85px 30px;
-        // }
+         li ul:nth-child(8) {
+             padding: 0 10px 105px 30px;
+         }
     }
 }

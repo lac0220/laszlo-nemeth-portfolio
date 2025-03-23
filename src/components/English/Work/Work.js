@@ -16,7 +16,7 @@ export default function WorkHistory () {
             <h1>Work</h1>
             <hr />
             <div className="work-history">
-                <p>I have always been a <span style={{fontWeight: "bold", color: "#FF6661"}}>service-oriented professional</span> devoted to excellent customer service and outstanding service delivery, regardless of the area of my professional activity. Generally speaking, I am passionate about identifying business needs and analysing requirements<span style={{fontWeight: "bold", color: "#FF6661"}}> to provide innovative IT solutions.</span></p>
+                <p>I have always been a <span style={{fontWeight: "bold", color: "#FF6661"}}>service-driven professional</span> committed to exceptional customer service and outstanding delivery, regardless of my field of work. My passion lies in identifying business needs and analyzing requirements<span style={{fontWeight: "bold", color: "#FF6661"}}> to develop innovative IT solutions.</span></p>
                 <ul></ul>
                 <ul>
                     <li>
@@ -44,11 +44,11 @@ export default function WorkHistory () {
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>05/2022 - 01/2023</span></p>
                         <hr />
                         <ul>
-                            <li><span><span style={{fontWeight: "bold"}}>Assisted the Front-End development team </span>by building an order management software</span></li>
-                            <li><span>Contributed to <span style={{fontWeight: "bold"}}>coding in React.js </span>and replaced CSS with SCSS for new features</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Performed automated unit testing </span>to identify and fix bugs</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Customized user-facing components </span>with the MUI library to meet operational needs</span></li>
-                            <li><span>Adjusted proper visual hierarchy and alignment to <span style={{fontWeight: "bold"}}>optimize UI design</span></span></li>
+                            <li><span>Supported the <span style={{fontWeight: "bold"}}>Front-End development team </span>in building an order management software</span></li>
+                            <li><span>Contributed to <span style={{fontWeight: "bold"}}>React.js development </span>and transitioned CSS to SCSS for new features</span></li>
+                            <li><span>Conducted<span style={{fontWeight: "bold"}}> automated unit testing </span>to detect and resolve bugs</span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Customized user-facing components </span>using the MUI library to enhance functionality</span></li>
+                            <li><span>Refined visual hierarchy and alignment to <span style={{fontWeight: "bold"}}>optimize UI design</span></span></li>
                         </ul>
                         <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>React.js, TypeScript, CSS<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>3</span>, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
                     </li>
@@ -77,11 +77,11 @@ export default function WorkHistory () {
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>02/2023 - 12/2024</span></p>
                         <hr />
                         <ul>
-                            <li><span><span style={{fontWeight: "bold"}}>Analysed </span>the requirements of <span style={{fontWeight: "bold"}}>user stories </span>in ECMS collateral management services</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Executed test cases </span>with an agile methodology approach</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Simulated user’s SWIFT messages </span>and monitored them with SQL in databases</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Documented test results </span>and <span style={{fontWeight: "bold"}}>reported defects </span>to developers in Jira</span></li>
-                            <li><span>Liaised with test coordinators and regularly <span style={{fontWeight: "bold"}}>updated the test case status in Xray </span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Analysed user story</span> requirements for ECMS collateral management services</span></li>
+                            <li><span>Executed<span style={{fontWeight: "bold"}}> test cases </span>using an agile testing methodology</span></li>
+                            <li><span>Simulated<span style={{fontWeight: "bold"}}> SWIFT messages </span>monitored database transactions with <span style={{fontWeight: "bold"}}>SQL</span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Documented test results </span>and reported defects to developers via Jira</span></li>
+                            <li><span>Coordinated with test managers and maintained<span style={{fontWeight: "bold"}}> test case status in Xray</span></span></li>
                         </ul>
                         <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>SQL, XML, Jira, Xray, Xact Web Portal application</p>
                     </li>
