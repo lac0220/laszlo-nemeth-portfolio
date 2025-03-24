@@ -25,11 +25,11 @@
 </div>
 <br />
 
-🤓 <b>Keen to learn more and more</b> about the core technologies of programming and UI design
+🤓 <b>Passionate about deepening my knowledge of core programming technologies</b> and UI design
 
-💻 <b>Love turning ideas into real things</b>, adding motion to elements, and maintaining high discoverability for an enjoyable user experience
+💻 <b>Enjoy bringing ideas to life,</b> adding dynamic motion to elements, and ensuring a seamless, user-friendly experience
 
-🔎 To expand my coding skills, <b>I am always open to discussing and joining challenging front-end projects</b>
+🔎 <b>Always eager to enhance my coding skills</b> by exploring and contributing to exciting front-end projects
 <br />
 
 ---
