@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laszlo-nemeth-portfolio/static/css/main.e7e9f901.css",
-    "main.js": "/laszlo-nemeth-portfolio/static/js/main.d53a74bc.js",
+    "main.js": "/laszlo-nemeth-portfolio/static/js/main.24b1bbc7.js",
     "static/css/158.ad4c446c.chunk.css": "/laszlo-nemeth-portfolio/static/css/158.ad4c446c.chunk.css",
     "static/js/158.3290b1c0.chunk.js": "/laszlo-nemeth-portfolio/static/js/158.3290b1c0.chunk.js",
     "static/css/996.a4410eef.chunk.css": "/laszlo-nemeth-portfolio/static/css/996.a4410eef.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/30.608bec2a.chunk.js": "/laszlo-nemeth-portfolio/static/js/30.608bec2a.chunk.js",
     "static/css/543.b9e46496.chunk.css": "/laszlo-nemeth-portfolio/static/css/543.b9e46496.chunk.css",
     "static/js/543.0050e42f.chunk.js": "/laszlo-nemeth-portfolio/static/js/543.0050e42f.chunk.js",
-    "static/css/607.eb66c5ba.chunk.css": "/laszlo-nemeth-portfolio/static/css/607.eb66c5ba.chunk.css",
-    "static/js/607.79dfad00.chunk.js": "/laszlo-nemeth-portfolio/static/js/607.79dfad00.chunk.js",
-    "static/css/889.e6a17cda.chunk.css": "/laszlo-nemeth-portfolio/static/css/889.e6a17cda.chunk.css",
-    "static/js/889.7dd10354.chunk.js": "/laszlo-nemeth-portfolio/static/js/889.7dd10354.chunk.js",
+    "static/css/607.94c814d4.chunk.css": "/laszlo-nemeth-portfolio/static/css/607.94c814d4.chunk.css",
+    "static/js/607.d6f2f98b.chunk.js": "/laszlo-nemeth-portfolio/static/js/607.d6f2f98b.chunk.js",
+    "static/css/889.cd467d19.chunk.css": "/laszlo-nemeth-portfolio/static/css/889.cd467d19.chunk.css",
+    "static/js/889.df390412.chunk.js": "/laszlo-nemeth-portfolio/static/js/889.df390412.chunk.js",
     "static/js/24.02c87d88.chunk.js": "/laszlo-nemeth-portfolio/static/js/24.02c87d88.chunk.js",
-    "static/media/Laszlo_Nemeth_Resume.pdf": "/laszlo-nemeth-portfolio/static/media/Laszlo_Nemeth_Resume.9a4fdd0122d8ec206799.pdf",
+    "static/media/Laszlo_Nemeth_Resume.pdf": "/laszlo-nemeth-portfolio/static/media/Laszlo_Nemeth_Resume.fb77c9716516689b20e2.pdf",
     "static/media/profile.webp": "/laszlo-nemeth-portfolio/static/media/profile.92795a8de60b0d09515d.webp",
     "static/media/testing.webp": "/laszlo-nemeth-portfolio/static/media/testing.3767027ade52297a5007.webp",
     "static/media/api.webp": "/laszlo-nemeth-portfolio/static/media/api.e16fc89901b1e3bef28f.webp",
@@ -32,7 +32,7 @@
     "static/media/uk_flag.svg": "/laszlo-nemeth-portfolio/static/media/uk_flag.516897fd3988e35032b772b026a19f75.svg",
     "static/media/german_flag.svg": "/laszlo-nemeth-portfolio/static/media/german_flag.6435bf24d148ca7248e7.svg",
     "main.e7e9f901.css.map": "/laszlo-nemeth-portfolio/static/css/main.e7e9f901.css.map",
-    "main.d53a74bc.js.map": "/laszlo-nemeth-portfolio/static/js/main.d53a74bc.js.map",
+    "main.24b1bbc7.js.map": "/laszlo-nemeth-portfolio/static/js/main.24b1bbc7.js.map",
     "158.ad4c446c.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/158.ad4c446c.chunk.css.map",
     "158.3290b1c0.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/158.3290b1c0.chunk.js.map",
     "996.a4410eef.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/996.a4410eef.chunk.css.map",
@@ -41,14 +41,14 @@
     "30.608bec2a.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/30.608bec2a.chunk.js.map",
     "543.b9e46496.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/543.b9e46496.chunk.css.map",
     "543.0050e42f.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/543.0050e42f.chunk.js.map",
-    "607.eb66c5ba.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/607.eb66c5ba.chunk.css.map",
-    "607.79dfad00.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/607.79dfad00.chunk.js.map",
-    "889.e6a17cda.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/889.e6a17cda.chunk.css.map",
-    "889.7dd10354.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/889.7dd10354.chunk.js.map",
+    "607.94c814d4.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/607.94c814d4.chunk.css.map",
+    "607.d6f2f98b.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/607.d6f2f98b.chunk.js.map",
+    "889.cd467d19.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/889.cd467d19.chunk.css.map",
+    "889.df390412.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/889.df390412.chunk.js.map",
     "24.02c87d88.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/24.02c87d88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7e9f901.css",
-    "static/js/main.d53a74bc.js"
+    "static/js/main.24b1bbc7.js"
   ]
 }
