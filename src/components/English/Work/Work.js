@@ -44,11 +44,10 @@ export default function WorkHistory () {
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>05/2022 - 01/2023</span></p>
                         <hr />
                         <ul>
-                            <li><span>Supported the <span style={{fontWeight: "bold"}}>Front-End development team </span>in building an order management software</span></li>
-                            <li><span>Contributed to <span style={{fontWeight: "bold"}}>React.js development </span>and transitioned CSS to SCSS for new features</span></li>
-                            <li><span>Conducted<span style={{fontWeight: "bold"}}> automated unit testing </span>to detect and resolve bugs</span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Customized user-facing components </span>using the MUI library to enhance functionality</span></li>
-                            <li><span>Refined visual hierarchy and alignment to <span style={{fontWeight: "bold"}}>optimize UI design</span></span></li>
+                            <li><span>Assisted front-end team in <span style={{fontWeight: "bold"}}>building</span> a user-friendly <span style={{fontWeight: "bold"}}>order management app</span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Developed React.js components </span>and migrated styling from CSS to SCSS</span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Conducted automated unit testing </span>to identify and resolve bugs</span></li>
+                            <li><span>Customized user-facing components <span style={{fontWeight: "bold"}}>using MUI library</span> to enhance functionality</span></li>
                         </ul>
                         <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>React.js, TypeScript, CSS<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>3</span>, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
                     </li>
@@ -77,11 +76,10 @@ export default function WorkHistory () {
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>02/2023 - 12/2024</span></p>
                         <hr />
                         <ul>
-                            <li><span><span style={{fontWeight: "bold"}}>Analysed user story</span> requirements for ECMS collateral management services</span></li>
-                            <li><span>Executed<span style={{fontWeight: "bold"}}> test cases </span>using an agile testing methodology</span></li>
-                            <li><span>Simulated<span style={{fontWeight: "bold"}}> SWIFT messages </span>monitored database transactions with <span style={{fontWeight: "bold"}}>SQL</span></span></li>
-                            <li><span><span style={{fontWeight: "bold"}}>Documented test results </span>and reported defects to developers via Jira</span></li>
-                            <li><span>Coordinated with test managers and maintained<span style={{fontWeight: "bold"}}> test case status in Xray</span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Analysed user stories</span> to align with business requirements in collateral operations</span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Executed test cases </span>using Agile methodology and <span style={{fontWeight: "bold"}}>Xray </span>for clear reporting</span></li>
+                            <li><span>Simulated<span style={{fontWeight: "bold"}}> SWIFT messages </span>and validated back-end processes using <span style={{fontWeight: "bold"}}>SQL data</span></span></li>
+                            <li><span><span style={{fontWeight: "bold"}}>Documented test results </span>and logged defects to developers via Jira</span></li>
                         </ul>
                         <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>SQL, XML, Jira, Xray, Xact Web Portal application</p>
                     </li>
@@ -109,8 +107,14 @@ export default function WorkHistory () {
                         <p>Full-time</p> 
                         <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>01/2025 - present</span></p>
                         <hr />
-                        <ul></ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>Jira, Jenkins, HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, JavaScript, XML, XSLT, GitHub, GitHub Copilot, Visual Studio Code, D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> Navigator</p>
+                        <ul>
+                            <li><span>Supporting daily product management by <span style={{fontWeight: "bold"}}>overseeing API integration, data taxonomy</span>, and Eurobond digitization</span></li>
+                            <li><span>Contributing to D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> strategy by <span style={{fontWeight: "bold"}}>developing and updating the D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> Navigator site</span> and data model with optimized UX features</span></li>
+                            <li><span>Defining product roadmaps and <span style={{fontWeight: "bold"}}>designing API structures using Swagger</span></span></li>
+                            <li><span>Guiding client onboarding to D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> APIs and <span style={{fontWeight: "bold"}}>providing technical support</span></span></li>
+                            <li><span>Gathering stakeholder feedback and <span style={{fontWeight: "bold"}}>translating business needs into tech specs</span></span></li>
+                        </ul>
+                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, JavaScript, Swagger, XML, XSLT, GitHub, GitHub Copilot, Visual Studio Code, Jira, Jenkins</p>
                     </li>
                 </ul>
                 </div>

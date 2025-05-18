@@ -24,11 +24,12 @@
 
         p:nth-child(2),
         p:nth-child(3),
-        p:nth-child(4) {
+        p:nth-child(4),
+        p:nth-child(5) {
             padding: 10px 0;
         }
 
-        p:nth-child(5) {
+        p:nth-child(6) {
             padding: 20px 0 5px;
             text-align: center;
             font-size: 1.375rem;
@@ -83,7 +84,7 @@
         } 
 
         &__text {
-            p:nth-child(5) {
+            p:nth-child(6) {
                 padding: 15px 0 5px;
                 font-size: 1.25rem;
             }
@@ -116,7 +117,8 @@
         &__text {
             p:nth-child(2),
             p:nth-child(3),
-            p:nth-child(4) {
+            p:nth-child(4),
+            p:nth-child(5) {
                 padding: 7px 0;
             }
         }
@@ -137,7 +139,7 @@
             margin: 25px auto 10px auto;
         }   
         
-        &__text p:nth-child(5) {
+        &__text p:nth-child(6) {
             padding: 10px 0 0;
             font-size: 1.125rem;
         } 
