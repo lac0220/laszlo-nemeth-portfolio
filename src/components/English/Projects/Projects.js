@@ -64,14 +64,14 @@ export default function Projects () {
                         </ul>
                         <h3>Bootcamp Hackathon</h3>
                         <hr />
-                        <p>The challenge was to to create a<span style={{fontWeight: "bold"}}> responsive, static website for a coffee shop</span>, featuring:</p>
+                        <p>The challenge was to to create a <span style={{fontWeight: "bold", color: "#7A0400"}}>responsive, static website</span> for a coffee shop, featuring:</p>
                         <ul>
                             <li><span>a home page with essential information</span></li>
                             <li><span>a menu page showcasing available offerings</span></li>
                             <li><span>a coffee selection page listing different types of coffee</span></li>
                             <li><span>an "Our Story" page with a reservation contact form</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, Gulp.js</span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, Gulp.js</span></p>
                     </li>
                     <li>
                         <h2>LEGENDARY QUOTES</h2>
@@ -103,14 +103,14 @@ export default function Projects () {
                         </ul>
                         <h3>Bootcamp Final Project</h3>
                         <hr />
-                        <p>This mobile-friendly web application utilizes an <span style={{fontWeight: "bold"}}>API to generate random and daily inspirational quotes</span>, offering users features such as:</p>
+                        <p>This mobile-friendly <span style={{fontWeight: "bold", color: "#7A0400"}}>web application utilizes an API</span> to generate random and daily inspirational quotes, offering users features such as:</p>
                         <ul>
                             <li><span>categorized quotes for easy browsing</span></li>
                             <li><span>alphabetical filtering of authors</span></li>
                             <li><span>keyword search to find specific quotes</span></li>
                             <li><span>contact form with email submission functionality</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, JavaScript, Gulp.js</span></p>
+                        <p><span span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, JavaScript, Gulp.js</span></p>
                     </li>
                     <li>
                         <h2>JOKES GENERATOR</h2>
@@ -142,13 +142,13 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>The<span style={{fontWeight: "bold"}}> Random Jokes Generator</span> retrieves data <span style={{fontWeight: "bold"}}>from an API</span>, providing users access to a jokes platform while simultaneously tracking the number of jokes read.</p>
+                        <p>The Random Jokes Generator <span style={{fontWeight: "bold", color: "#7A0400"}}>retrieves data from an API</span>, providing users access to a jokes platform while simultaneously tracking the number of jokes read.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
                             <li><span>react-bootstrap - integrates the Bootstrap CSS framework</span></li>
                             <li><span>font-awesome - provides an extensive icon library and toolkit</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
                     <li>
                         <h2>WIKI SEARCH ENGINE</h2>
@@ -180,14 +180,14 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This<span style={{fontWeight: "bold"}}> search engine</span> utilizes the<span style={{fontWeight: "bold"}}> Wikipedia API </span>to fetch the top five search results initially, with the option to load more on request. Each result links directly to its corresponding Wikipedia entry (wiki page) for further exploration.</p>
+                        <p>This <span style={{fontWeight: "bold", color: "#7A0400"}}>search engine utilizes the Wikipedia API </span>to fetch the top five search results initially, with the option to load more on request. Each result links directly to its corresponding Wikipedia entry (wiki page) for further exploration.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
                             <li><span>react-router-dom - enables client-side routing</span></li>
                             <li><span>react-hook-form - handles form validation</span></li>
                             <li><span>react-bootstrap - integrates the Bootstrap CSS framework for styling</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
                     <li>
                         <h2>MODEL PORTFOLIO</h2>
@@ -219,7 +219,7 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This mobile-friendly<span style={{fontWeight: "bold"}}> web app is designed for a model and artist</span>, featuring a gallery and a blog section. The contact form is integrated <span style={{fontWeight: "bold"}}>with EmailJS</span>, enabling messages to be sent directly to a Gmail address.</p>
+                        <p>This mobile-friendly web app is <span style={{fontWeight: "bold", color: "#7A0400"}}>designed for a model and artist</span>, featuring a gallery and a blog section. The contact form is integrated <span style={{fontWeight: "bold", color: "#7A0400"}}>with EmailJS</span>, enabling messages to be sent directly to a Gmail address.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
                             <li><span>react-router-dom and hash-link - enables smooth client-side routing</span></li>
@@ -228,7 +228,7 @@ export default function Projects () {
                             <li><span>react-hook-form - manages form validation</span></li>
                             <li><span>node-sass - compiles SCSS files into CSS for styling</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>React.js, SCSS</span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS</span></p>
                     </li>
                     <li>
                         <h2>E-COMMERCE</h2>
@@ -260,7 +260,7 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This web application features two main pages: one that lists all <span style={{fontWeight: "bold"}}>products from a MySQL database</span> and another that allows <span style={{fontWeight: "bold"}}>users to add new products</span> with a unique SKU and details such as name, price, size, height, width, length, and weight. The database is <span style={{fontWeight: "bold"}}>hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost</span> and managed via phpMyAdmin.</p>
+                        <p>This web application features two main pages: one that lists all <span style={{fontWeight: "bold", color: "#7A0400"}}>products from a MySQL database</span> and another that allows <span style={{fontWeight: "bold", color: "#7A0400"}}>users to add new products</span> with a unique SKU and details such as name, price, size, height, width, length, and weight. The database is <span style={{fontWeight: "bold", color: "#7A0400"}}>hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost</span> and managed via phpMyAdmin.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
                             <li><span>react-router-dom - enables seamless client-side routing</span></li>
@@ -269,7 +269,7 @@ export default function Projects () {
                             <li><span>mui/material - provides advanced UI components</span></li>
                             <li><span>node-sass - compiles SCSS files into CSS for styling</span></li>
                         </ul>
-                        <p><span style={{fontWeight: "bold"}}>Tech Stack: </span><span>React.js, SCSS, PHP, MySQL</span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS, PHP, MySQL</span></p>
                     </li>
                 </ul>
             </div>
