@@ -2,7 +2,8 @@
     <img src="https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif" width="200" height="150"/>
 </div>
 
-<h1 align="center">Front-End Developer - React.js</h1>
+<h1 align="center">Product Manager - APIs & Data Standardization</h1>
+<h2 align="center">Front-End Developer - React.js</h2>
 
 <div align="center" id="badges">
     <a href="https://lac0220.github.io/lac0220/">
@@ -20,15 +21,22 @@
 <br />
 
 <div align="center">
-    I am <b>LASZLO NEMETH</b> from Hungary, currently living in Prague, Czech Republic
+    Greetings, I am <b>LASZLO</b>
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" height="30"/>
 </div>
 <br />
-
-🤓 <b>Passionate about deepening my knowledge of core programming technologies</b> and UI design
-
-🔎 <b>Always eager to enhance my coding skills</b> by exploring and contributing to exciting front-end projects
+<div align="left">
+    <p>
+        I work at the intersection of <b>product management and technology</b>, with a focus on <b>API-driven financial services, digital securities, and data standardization</b>.
+    </p>
+    <p>
+        With a background in frontend development (React.js) and financial systems, I combine technical understanding with product thinking to deliver <b>scalable, maintainable solutions in regulated environments</b>.
+    </p>
+</div>
 <br />
+<p align="center">
+🔎 <b>Always eager to enhance my coding skills</b> by exploring and contributing to exciting front-end projects
+</p>
 
 ---
 <p>
