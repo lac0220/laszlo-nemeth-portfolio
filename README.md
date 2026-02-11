@@ -27,8 +27,6 @@
 
 🤓 <b>Passionate about deepening my knowledge of core programming technologies</b> and UI design
 
-💻 <b>Enjoy bringing ideas to life,</b> adding dynamic motion to elements, and ensuring a seamless, user-friendly experience
-
 🔎 <b>Always eager to enhance my coding skills</b> by exploring and contributing to exciting front-end projects
 <br />
 

@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <footer>
             <p>Copyright ©</p>
-            <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2025</span></p>
+            <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2026</span></p>
         </footer>
     );
 }

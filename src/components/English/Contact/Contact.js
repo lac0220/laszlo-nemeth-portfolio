@@ -24,7 +24,6 @@ export default function Contact  () {
             navigate("/laszlo-nemeth-portfolio/message");
         }, (error) => {
             alert("Something went wrong. Please try again later");
-            // console.log(error);
         });
         e.target.reset()
     };
@@ -45,7 +44,7 @@ export default function Contact  () {
                                 {...register("name", { required: true })} 
                             />
                             {errors.name?.type === "required" && <span style={{fontWeight: "bold", color: "#FF6661"}}>This field is required!</span>}
-                            </label>
+                        </label>
                         <label htmlFor="email">
                             <input 
                                 type="text" 

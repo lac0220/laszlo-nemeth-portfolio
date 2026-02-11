@@ -22,7 +22,7 @@ export default function Projects () {
             <h1>Projects</h1>
             <hr />
             <div className="projects"> 
-                <p>I strive to create<span style={{fontWeight: "bold", color: "#FF6661"}}> user-friendly websites and web applications</span> with responsive design. I enjoy transforming ideas into reality, <span style={{fontWeight: "bold", color: "#FF6661"}}> adding dynamic elements</span>, and ensuring high discoverability for an <span style={{fontWeight: "bold", color: "#FF6661"}}>engaging user experience</span> using a range of web technologies and development tools:</p>
+                <p>I develop user-friendly and responsive web applications, translating concepts into maintainable, performance-driven solutions using <span style={{fontWeight: "bold", color: "#FF6661"}}>modern frontend technologies and structured design principles.</span></p>
                 <ul>
                     <li><i><FontAwesomeIcon icon={faHtml5} aria-label="HTML5 icon" title="HTML5" /></i></li>
                     <li><i><FontAwesomeIcon icon={faSass} aria-label="SCSS icon" title="SCSS" /></i></li>
@@ -66,10 +66,10 @@ export default function Projects () {
                         <hr />
                         <p>The challenge was to to create a <span style={{fontWeight: "bold", color: "#7A0400"}}>responsive, static website</span> for a coffee shop, featuring:</p>
                         <ul>
-                            <li><span>a home page with essential information</span></li>
-                            <li><span>a menu page showcasing available offerings</span></li>
-                            <li><span>a coffee selection page listing different types of coffee</span></li>
-                            <li><span>an "Our Story" page with a reservation contact form</span></li>
+                            <li>a home page with essential information</li>
+                            <li>a menu page showcasing available offerings</li>
+                            <li>a coffee selection page listing different types of coffee</li>
+                            <li>an "Our Story" page with a reservation contact form</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, Gulp.js</span></p>
                     </li>
@@ -103,12 +103,12 @@ export default function Projects () {
                         </ul>
                         <h3>Bootcamp Final Project</h3>
                         <hr />
-                        <p>This mobile-friendly <span style={{fontWeight: "bold", color: "#7A0400"}}>web application utilizes an API</span> to generate random and daily inspirational quotes, offering users features such as:</p>
+                        <p>This mobile-friendly web application utilizes an API to generate <span style={{fontWeight: "bold", color: "#7A0400"}}>random and daily inspirational quotes</span>, offering users features such as:</p>
                         <ul>
-                            <li><span>categorized quotes for easy browsing</span></li>
-                            <li><span>alphabetical filtering of authors</span></li>
-                            <li><span>keyword search to find specific quotes</span></li>
-                            <li><span>contact form with email submission functionality</span></li>
+                            <li>categorized quotes for easy browsing</li>
+                            <li>alphabetical filtering of authors</li>
+                            <li>keyword search to find specific quotes</li>
+                            <li>contact form with email submission functionality</li>
                         </ul>
                         <p><span span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, JavaScript, Gulp.js</span></p>
                     </li>
@@ -136,17 +136,17 @@ export default function Projects () {
                                         target="_blank"
                                         >
                                         <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
-                                        </a>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>The Random Jokes Generator <span style={{fontWeight: "bold", color: "#7A0400"}}>retrieves data from an API</span>, providing users access to a jokes platform while simultaneously tracking the number of jokes read.</p>
+                        <p>The <span style={{fontWeight: "bold", color: "#7A0400"}}>Random Jokes Generator</span> retrieves data from an API, providing users access to a jokes platform while simultaneously tracking the number of jokes read.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li><span>react-bootstrap - integrates the Bootstrap CSS framework</span></li>
-                            <li><span>font-awesome - provides an extensive icon library and toolkit</span></li>
+                            <li>react-bootstrap - integrates the Bootstrap CSS framework</li>
+                            <li>font-awesome - provides an extensive icon library and toolkit</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
@@ -174,7 +174,7 @@ export default function Projects () {
                                         target="_blank"
                                         >
                                         <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
-                                        </a>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
@@ -183,9 +183,9 @@ export default function Projects () {
                         <p>This <span style={{fontWeight: "bold", color: "#7A0400"}}>search engine utilizes the Wikipedia API </span>to fetch the top five search results initially, with the option to load more on request. Each result links directly to its corresponding Wikipedia entry (wiki page) for further exploration.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li><span>react-router-dom - enables client-side routing</span></li>
-                            <li><span>react-hook-form - handles form validation</span></li>
-                            <li><span>react-bootstrap - integrates the Bootstrap CSS framework for styling</span></li>
+                            <li>react-router-dom - enables client-side routing</li>
+                            <li>react-hook-form - handles form validation</li>
+                            <li>react-bootstrap - integrates the Bootstrap CSS framework for styling</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
@@ -213,20 +213,20 @@ export default function Projects () {
                                         target="_blank"
                                         >
                                         <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
-                                        </a>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This mobile-friendly web app is <span style={{fontWeight: "bold", color: "#7A0400"}}>designed for a model and artist</span>, featuring a gallery and a blog section. The contact form is integrated <span style={{fontWeight: "bold", color: "#7A0400"}}>with EmailJS</span>, enabling messages to be sent directly to a Gmail address.</p>
+                        <p>This mobile-friendly <span style={{fontWeight: "bold", color: "#7A0400"}}>web app is designed for a model and artist</span>, featuring a gallery and a blog section. The contact form is integrated with EmailJS, enabling messages to be sent directly to a Gmail address.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li><span>react-router-dom and hash-link - enables smooth client-side routing</span></li>
-                            <li><span>react-alice-carousel - provides an interactive image slider</span></li>
-                            <li><span>react-modal-image - supports image zoom functionality</span></li>
-                            <li><span>react-hook-form - manages form validation</span></li>
-                            <li><span>node-sass - compiles SCSS files into CSS for styling</span></li>
+                            <li>react-router-dom and hash-link - enables smooth client-side routing</li>
+                            <li>react-alice-carousel - provides an interactive image slider</li>
+                            <li>react-modal-image - supports image zoom functionality</li>
+                            <li>react-hook-form - manages form validation</li>
+                            <li>node-sass - compiles SCSS files into CSS for styling</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS</span></p>
                     </li>
@@ -254,20 +254,20 @@ export default function Projects () {
                                         target="_blank"
                                         >
                                         <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
-                                        </a>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This web application features two main pages: one that lists all <span style={{fontWeight: "bold", color: "#7A0400"}}>products from a MySQL database</span> and another that allows <span style={{fontWeight: "bold", color: "#7A0400"}}>users to add new products</span> with a unique SKU and details such as name, price, size, height, width, length, and weight. The database is <span style={{fontWeight: "bold", color: "#7A0400"}}>hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost</span> and managed via phpMyAdmin.</p>
+                        <p>This web application features two main pages: one that lists <span style={{fontWeight: "bold", color: "#7A0400"}}>all products from a MySQL database</span> and another that allows users to <span style={{fontWeight: "bold", color: "#7A0400"}}>add new products with a unique SKU</span> and details such as name, price, size, height, width, length, and weight. The database is hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost and managed via phpMyAdmin.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li><span>react-router-dom - enables seamless client-side routing</span></li>
-                            <li><span>react-hook-form - handles form validation</span></li>
-                            <li><span>axios - facilitates HTTP requests for data fetching</span></li>
-                            <li><span>mui/material - provides advanced UI components</span></li>
-                            <li><span>node-sass - compiles SCSS files into CSS for styling</span></li>
+                            <li>react-router-dom - enables seamless client-side routing</li>
+                            <li>react-hook-form - handles form validation</li>
+                            <li>axios - facilitates HTTP requests for data fetching</li>
+                            <li>mui/material - provides advanced UI components</li>
+                            <li>node-sass - compiles SCSS files into CSS for styling</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS, PHP, MySQL</span></p>
                     </li>

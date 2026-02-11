@@ -16,25 +16,15 @@ export default function Home() {
         <section className="home">
             <ul>
                 <li>
-                    <p>
-                        <Link 
-                            to="/laszlo-nemeth-portfolio/about" aria-label="About page">
-                            Laszlo Nemeth
-                        </Link>  
-                    </p> 
+                    <p><Link to="/laszlo-nemeth-portfolio/about" aria-label="About page">Laszlo Nemeth</Link>  </p> 
                     <p>Product Manager <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> FE Developer</p>
                 </li>
-                <li>
-                    <img src={img_avatar} alt="Avatar" />
-                </li>
+                <li><img src={img_avatar} alt="Avatar" /></li>
             </ul>
             <hr />
             <div>
                 <p>"There's no failure, only feedback"</p>
-                <Link 
-                    to="/laszlo-nemeth-portfolio/contact" aria-label="Contact page">
-                    LET'S WORK TOGETHER
-                </Link>
+                <Link to="/laszlo-nemeth-portfolio/contact" aria-label="Contact page">LET'S WORK TOGETHER</Link>
             </div>
         </section> 
     );

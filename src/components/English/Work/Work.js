@@ -16,7 +16,7 @@ export default function WorkHistory () {
             <h1>Work</h1>
             <hr />
             <div className="work-history">
-                <p>I have always been a <span style={{fontWeight: "bold", color: "#FF6661"}}>service-driven professional</span> committed to exceptional customer service and outstanding delivery, regardless of my field of work. My passion lies in identifying business needs and analyzing requirements<span style={{fontWeight: "bold", color: "#FF6661"}}> to develop innovative IT solutions.</span></p>
+                <p>I am a <span style={{fontWeight: "bold", color: "#FF6661"}}>product-driven professional</span> focused on identifying business needs, aligning stakeholders, and translating complex requirements into <span style={{fontWeight: "bold", color: "#FF6661"}}>scalable IT solutions</span>. My approach combines analytical thinking with hands-on technical understanding to deliver efficient, <span style={{fontWeight: "bold", color: "#FF6661"}}>API-driven financial products</span>.</p>
                 <ul></ul>
                 <ul>
                     <li>
@@ -38,18 +38,17 @@ export default function WorkHistory () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>Junior Front-End</h3> 
-                        <h3>Developer</h3> 
+                        <h3>Junior Front-End<br/>Developer</h3> 
                         <p>Internship</p> 
-                        <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>05/2022 - 01/2023</span></p>
+                        <p>05/2022 - 01/2023</p>
                         <hr />
                         <ul>
-                            <li><span><span style={{fontWeight: "bold", color: "#7A0400"}}>Assisted front-end team </span>in building a user-friendly order management app</span></li>
-                            <li><span>Developed <span style={{fontWeight: "bold", color: "#7A0400"}}>React.js components </span>and migrated styling from CSS to SCSS</span></li>
-                            <li><span>Conducted <span style={{fontWeight: "bold", color: "#7A0400"}}>automated unit testing </span>to identify and resolve bugs</span></li>
-                            <li><span>Customized user-facing components using <span style={{fontWeight: "bold", color: "#7A0400"}}>MUI library</span> to enhance functionality</span></li>
+                            <li>Developed <span style={{fontWeight: "bold", color: "#7A0400"}}>React.js components</span> for an order management platform</li>
+                            <li>Implemented automated unit tests to reduce frontend defects</li>
+                            <li>Customized <span style={{fontWeight: "bold", color: "#7A0400"}}>Material UI</span> components to enhance UX and consistency</li>
+                            <li>Migrated styling from CSS to <span style={{fontWeight: "bold", color: "#7A0400"}}>SCSS</span> to improve maintainability and structure</li>
                         </ul>
-                        <p><span span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span>React.js, TypeScript, CSS<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>3</span>, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack:</span> React.js, TypeScript, CSS<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>3</span>, SCSS, Bootstrap <span style={{fontFamily: '"Times New Roman", Times, serif'}}>5</span>, Git, GitLab, Webpack, Asana</p>
                     </li>
                     <li>
                         <h2>CLEARSTREAM S.R.O.</h2>
@@ -70,16 +69,15 @@ export default function WorkHistory () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>User Acceptance Testing</h3> 
-                        <h3>Specialist</h3> 
+                        <h3>User Acceptance Testing<br/>Specialist</h3> 
                         <p>Full-time</p> 
-                        <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>02/2023 - 12/2024</span></p>
+                        <p>02/2023 - 12/2024</p>
                         <hr />
                         <ul>
-                            <li><span><span style={{fontWeight: "bold", color: "#7A0400"}}>Analysed user stories </span>to align with business requirements in collateral operations</span></li>
-                            <li><span>Executed test cases using <span style={{fontWeight: "bold", color: "#7A0400"}}>Agile methodology</span> and <span style={{fontWeight: "bold", color: "#7A0400"}}>Xray</span> for clear reporting</span></li>
-                            <li><span>Simulated<span style={{fontWeight: "bold", color: "#7A0400"}}> SWIFT messages </span>and validated back-end processes using <span style={{fontWeight: "bold", color: "#7A0400"}}>SQL data</span></span></li>
-                            <li><span>Documented test results and logged defects to developers via <span style={{fontWeight: "bold", color: "#7A0400"}}>Jira</span></span></li>
+                            <li>Analyzed user stories and validated alignment with collateral ops requirements</li>
+                            <li>Executed Agile-based test cycles using Xray, ensuring transparent reporting</li>
+                            <li>Simulated <span style={{fontWeight: "bold", color: "#7A0400"}}>SWIFT messages</span> and validated backend processes using <span style={{fontWeight: "bold", color: "#7A0400"}}>SQL</span> queries</li>
+                            <li>Logged and tracked defects in <span style={{fontWeight: "bold", color: "#7A0400"}}>Jira</span>, collaborated closely with development teams</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span>SQL, XML, Jira, Xray, Xact Web Portal application</p>
                     </li>
@@ -102,19 +100,19 @@ export default function WorkHistory () {
                                 </div>
                             </li>
                         </ul>
-                        <h3>Product Manager</h3> 
-                        <h3>API & Pre-Issuance Eurobonds</h3> 
+                        <h3>Product Manager<br/>APIs and Data Standardization</h3> 
                         <p>Full-time</p> 
-                        <p><span style={{fontFamily: '"Times New Roman", Times, serif'}}>01/2025 - present</span></p>
+                        <p>01/2025 - present</p>
                         <hr />
                         <ul>
-                            <li><span>Supporting daily product management via <span style={{fontWeight: "bold", color: "#7A0400"}}>API integration</span>, data taxonomy, and Eurobond digitization</span></li>
-                            <li><span>Contributing to D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> digital issuance by <span style={{fontWeight: "bold", color: "#7A0400"}}>updating data models</span> and developing the <span style={{fontWeight: "bold", color: "#7A0400"}}>D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> Navigator site</span> with optimized UX</span></li>
-                            <li><span>Defining product roadmaps and designing API structures using <span style={{fontWeight: "bold", color: "#7A0400"}}>Swagger</span></span></li>
-                            <li><span>Guiding client onboarding to D<span style={{fontFamily: '"Times New Roman", Times, serif'}}>7</span> and Pre-Issuance APIs with <span style={{fontWeight: "bold", color: "#7A0400"}}>technical support</span></span></li>
-                            <li><span>Gathering stakeholder feedback and translating business needs into <span style={{fontWeight: "bold", color: "#7A0400"}}>tech specs</span></span></li>
+                            <li>Defining <span style={{fontWeight: "bold", color: "#7A0400"}}>product roadmaps</span> and leading client onboarding across API services</li>
+                            <li>Designing and implementing a <span style={{fontWeight: "bold", color: "#7A0400"}}>client-facing platform</span> centralizing API documentation and technical resources</li>
+                            <li>Managing <span style={{fontWeight: "bold", color: "#7A0400"}}>API data model updates</span> while preserving backward compatibility</li>
+                            <li>Collaborating on API integration and <span style={{fontWeight: "bold", color: "#7A0400"}}>OpenAPI/Swagger documentation</span> for Eurobond digital issuance</li>
+                            <li>Translating stakeholder needs into technical specifications and product features</li>
+                            <li>Migrating legacy (HTML/JS + Java backend) to <span style={{fontWeight: "bold", color: "#7A0400"}}>React</span> to improve maintainability</li>
                         </ul>
-                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, JavaScript, Swagger, XML, XSLT, GitHub, GitHub Copilot, Visual Studio Code, Jira, Jenkins</p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span>React.js, JavaScript, CSS<span style={{fontFamily: '"Times New Roman", Times, serif'}}>3</span>, OpenAPI, Swagger, XML, XSLT, GitHub, Jenkins, Jira</p>
                     </li>
                 </ul>
                 </div>

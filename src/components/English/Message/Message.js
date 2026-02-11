@@ -9,10 +9,7 @@ export default function Message() {
             <h1>Thank you for your message</h1>
             <i><FontAwesomeIcon icon={faSmile} aria-label="Smile icon" /></i>
             <h1>I will get back to you as soon as possible</h1>
-            <h2>Back to the
-                <Link 
-                    to="/laszlo-nemeth-portfolio" aria-label="Home page"> home page
-                </Link>
+            <h2>Back to the <Link to="/laszlo-nemeth-portfolio" aria-label="Home page">home page</Link>
             </h2>
         </section>
     );

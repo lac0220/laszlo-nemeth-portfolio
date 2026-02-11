@@ -29,16 +29,9 @@ export default function Navbar() {
             <Language />
             <ul>
                 <li>
-                    <div className="hamburger" onClick={handleToggle}>
-                        <Hamburger isOpen={navbarOpen}/>
-                    </div>    
+                    <div className="hamburger" onClick={handleToggle}><Hamburger isOpen={navbarOpen}/></div>
                 </li>
-                <li className="logo">
-                    <Link 
-                        to="/laszlo-nemeth-portfolio" aria-label="Home page">
-                        <img src={logo} alt="Logo" />
-                    </Link>
-                </li>
+                <li className="logo"><Link to="/laszlo-nemeth-portfolio" aria-label="Home page"><img src={logo} alt="Logo" /></Link></li>
                 <li>
                     <h3>Laszlo Nemeth</h3>
                     <hr/>
@@ -52,34 +45,12 @@ export default function Navbar() {
                     <h3>Laszlo Nemeth</h3>
                     <p>Product Manager <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> FE Developer</p>
                 </li>
-                <li>
-                    <hr />
-                </li>
-                <li>
-                    <NavLink 
-                        to="/laszlo-nemeth-portfolio" onClick={() => closeMenu()} aria-label="Home page">Home
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink 
-                        to="/laszlo-nemeth-portfolio/projects" onClick={() => closeMenu()} aria-label="Projects page">Projects
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink 
-                        to="/laszlo-nemeth-portfolio/work" onClick={() => closeMenu()} aria-label="Work page">Work
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink 
-                        to="/laszlo-nemeth-portfolio/about" onClick={() => closeMenu()} aria-label="About page">About
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink 
-                        to="/laszlo-nemeth-portfolio/contact" onClick={() => closeMenu()} aria-label="Contact page">Contact
-                    </NavLink>
-                </li>
+                <li><hr /></li>
+                <li><NavLink to="/laszlo-nemeth-portfolio" onClick={() => closeMenu()} aria-label="Home page">Home</NavLink></li>
+                <li><NavLink to="/laszlo-nemeth-portfolio/projects" onClick={() => closeMenu()} aria-label="Projects page">Projects</NavLink></li>
+                <li><NavLink to="/laszlo-nemeth-portfolio/work" onClick={() => closeMenu()} aria-label="Work page">Work</NavLink></li>
+                <li><NavLink to="/laszlo-nemeth-portfolio/about" onClick={() => closeMenu()} aria-label="About page">About</NavLink></li>
+                <li><NavLink to="/laszlo-nemeth-portfolio/contact" onClick={() => closeMenu()} aria-label="Contact page">Contact</NavLink></li>
                 <li>
                     <a
                         href={require("../../../img/cv/Laszlo_Nemeth_Resume.pdf")} 
@@ -90,9 +61,7 @@ export default function Navbar() {
                         >Resume
                     </a>
                 </li>
-                <li>
-                    <hr />
-                </li>
+                <li><hr /></li>
                 <li>
                     <a 
                         href="https://www.linkedin.com/in/nemeth0220"
@@ -111,7 +80,7 @@ export default function Navbar() {
                 </li> 
                 <li>
                     <p>Copyright ©</p>
-                    <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2025</span></p>
+                    <p>Laszlo Nemeth<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 2026</span></p>
                 </li>
             </ul>
         </nav>        

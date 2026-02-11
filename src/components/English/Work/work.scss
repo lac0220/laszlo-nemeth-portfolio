@@ -10,29 +10,15 @@
                 margin: 0 10px;
             }
 
-            p {
-                text-align: center;
-            }
-
             p:nth-child(4) {
-                padding: 0;
-                font-weight: bold;
+                padding: 5px;
+                text-align: center;
             } 
 
             p:nth-child(5) {
-                padding: 0;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
             } 
-
-            p:nth-child(6) {
-                padding: 0 20px 5px;
-            }
-
-            p:nth-child(9) {
-                position: absolute;
-                bottom: 0;
-                padding-bottom: 10px;
-                text-align: left;
-            }
 
             ul:nth-child(2) li {
                 .work-history-flip-box {
@@ -56,15 +42,8 @@
                 } 
             } 
 
-            ul:nth-child(8) {
+            ul:nth-child(7) {
                 padding: 0 20px 100px 40px;
-                li {
-                    @extend .hyphens;
-                    padding-bottom: 5px;
-                    border: none;
-                    list-style: outside;
-                    text-align: left; 
-                }
             }
         }
     }   
@@ -78,7 +57,7 @@
             max-width: 128%;
         }
 
-        li ul:nth-child(8) {
+        li ul:nth-child(7) {
             padding: 0 20px 100px 40px;
         }
     }
@@ -88,6 +67,15 @@
 
     .work-history ul:nth-child(3) {
         padding-top: 20px;
+        li {
+            p:nth-child(4) {
+                padding: 2px;
+            } 
+
+            p:nth-child(5) {
+                padding-bottom: 5px;
+            } 
+        }
         ul:nth-child(2) li {
             min-height: 100px;
             h3 {
@@ -95,10 +83,8 @@
             } 
         }
     
-        li ul:nth-child(8) {
-            padding: 0 20px 110px 40px;
-            font-size: 1.125rem;      
-
+        li ul:nth-child(7) {
+            padding: 0 20px 90px 40px;
         }
     }
 }  
@@ -112,8 +98,8 @@
             max-width: 115%;
         }
 
-        li ul:nth-child(8) {
-             padding: 0 20px 90px 40px;
+        li ul:nth-child(7) {
+             padding: 0 20px 70px 40px;
          }
     }
 }
@@ -122,7 +108,7 @@
 
     .work-history ul:nth-child(3) { 
         padding-top: 15px;
-        li ul:nth-child(8) {
+        li ul:nth-child(7) {
             padding: 0 20px 90px 39px;
             font-size: 1rem;      
         }
@@ -131,8 +117,8 @@
 
 @media only screen and (max-width: 500px) {
 
-     .work-history ul:nth-child(3) li ul:nth-child(8) {
-         padding: 0 20px 85px 29px; 
+     .work-history ul:nth-child(3) li ul:nth-child(7) {
+         padding: 0 20px 90px 29px; 
      }
  }
 
@@ -144,9 +130,5 @@
             right: 10%;
             max-width: 125%;
         }
-
-         li ul:nth-child(8) {
-             padding: 0 10px 110px 29px;
-         }
     }
 }
