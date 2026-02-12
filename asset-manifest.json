@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laszlo-nemeth-portfolio/static/css/main.e7e9f901.css",
-    "main.js": "/laszlo-nemeth-portfolio/static/js/main.88f44adc.js",
+    "main.js": "/laszlo-nemeth-portfolio/static/js/main.7af53a77.js",
     "static/css/158.ad4c446c.chunk.css": "/laszlo-nemeth-portfolio/static/css/158.ad4c446c.chunk.css",
     "static/js/158.7662bed8.chunk.js": "/laszlo-nemeth-portfolio/static/js/158.7662bed8.chunk.js",
     "static/css/996.a4410eef.chunk.css": "/laszlo-nemeth-portfolio/static/css/996.a4410eef.chunk.css",
@@ -9,7 +9,7 @@
     "static/css/30.0fdae3d6.chunk.css": "/laszlo-nemeth-portfolio/static/css/30.0fdae3d6.chunk.css",
     "static/js/30.0d4556df.chunk.js": "/laszlo-nemeth-portfolio/static/js/30.0d4556df.chunk.js",
     "static/css/543.b9e46496.chunk.css": "/laszlo-nemeth-portfolio/static/css/543.b9e46496.chunk.css",
-    "static/js/543.0050e42f.chunk.js": "/laszlo-nemeth-portfolio/static/js/543.0050e42f.chunk.js",
+    "static/js/543.2dd73966.chunk.js": "/laszlo-nemeth-portfolio/static/js/543.2dd73966.chunk.js",
     "static/css/607.3c6f54be.chunk.css": "/laszlo-nemeth-portfolio/static/css/607.3c6f54be.chunk.css",
     "static/js/607.b63486c6.chunk.js": "/laszlo-nemeth-portfolio/static/js/607.b63486c6.chunk.js",
     "static/css/889.a9266766.chunk.css": "/laszlo-nemeth-portfolio/static/css/889.a9266766.chunk.css",
@@ -32,7 +32,7 @@
     "static/media/uk_flag.svg": "/laszlo-nemeth-portfolio/static/media/uk_flag.516897fd3988e35032b772b026a19f75.svg",
     "static/media/german_flag.svg": "/laszlo-nemeth-portfolio/static/media/german_flag.6435bf24d148ca7248e7.svg",
     "main.e7e9f901.css.map": "/laszlo-nemeth-portfolio/static/css/main.e7e9f901.css.map",
-    "main.88f44adc.js.map": "/laszlo-nemeth-portfolio/static/js/main.88f44adc.js.map",
+    "main.7af53a77.js.map": "/laszlo-nemeth-portfolio/static/js/main.7af53a77.js.map",
     "158.ad4c446c.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/158.ad4c446c.chunk.css.map",
     "158.7662bed8.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/158.7662bed8.chunk.js.map",
     "996.a4410eef.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/996.a4410eef.chunk.css.map",
@@ -40,7 +40,7 @@
     "30.0fdae3d6.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/30.0fdae3d6.chunk.css.map",
     "30.0d4556df.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/30.0d4556df.chunk.js.map",
     "543.b9e46496.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/543.b9e46496.chunk.css.map",
-    "543.0050e42f.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/543.0050e42f.chunk.js.map",
+    "543.2dd73966.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/543.2dd73966.chunk.js.map",
     "607.3c6f54be.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/607.3c6f54be.chunk.css.map",
     "607.b63486c6.chunk.js.map": "/laszlo-nemeth-portfolio/static/js/607.b63486c6.chunk.js.map",
     "889.a9266766.chunk.css.map": "/laszlo-nemeth-portfolio/static/css/889.a9266766.chunk.css.map",
@@ -49,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.e7e9f901.css",
-    "static/js/main.88f44adc.js"
+    "static/js/main.7af53a77.js"
   ]
 }
