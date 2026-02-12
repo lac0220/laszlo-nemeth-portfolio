@@ -19,7 +19,7 @@ export default function Contact  () {
     const sendEmail = (data, e) => {
     console.log(data);
 
-    emailjs.sendForm("service_wxap2rb", "template_w49gu6l", e.target, "TtX-buXBtDBrY53XD")
+    emailjs.sendForm("service_s607sx9", "template_w49gu6l", e.target, "TtX-buXBtDBrY53XD")
         .then(() => {
             navigate("/laszlo-nemeth-portfolio/message");
         }, (error) => {
