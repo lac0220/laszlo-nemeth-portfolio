@@ -30,7 +30,7 @@ export default function About () {
                 <ul className="about__contact"> 
                     <li>
                         <i><FontAwesomeIcon icon={faAnglesDown}/></i>
-                        <Link to="/laszlo-nemeth-portfolio/contact" aria-label="Contact page">MESSAGE ME</Link>
+                        <Link to="/contact" aria-label="Contact page">MESSAGE ME</Link>
                     </li>
                     <li>
                         <i><FontAwesomeIcon icon={faAnglesDown}/></i>

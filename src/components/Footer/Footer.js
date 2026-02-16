@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 export default function Footer() {
     //Footer removed for message page
     const { pathname } = useLocation();
-        if (pathname === "/laszlo-nemeth-portfolio/message") 
+        if (pathname === "/message") 
         return null;
         
     return (

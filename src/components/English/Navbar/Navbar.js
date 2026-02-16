@@ -4,7 +4,7 @@ import Language from "./LanguageLogo.js";
 import { useState } from "react";
 import { useLocation, NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faCodepen } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../img/logo/logo.webp";
 
@@ -21,7 +21,7 @@ export default function Navbar() {
 
     //navbar removed for message page
     const { pathname } = useLocation();
-    if (pathname === "/laszlo-nemeth-portfolio/message")
+    if (pathname === "/message")
     return null;
 
     return (
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <li>
                     <div className="hamburger" onClick={handleToggle}><Hamburger isOpen={navbarOpen}/></div>
                 </li>
-                <li className="logo"><Link to="/laszlo-nemeth-portfolio" aria-label="Home page"><img src={logo} alt="Logo" /></Link></li>
+                <li className="logo"><Link to="/" aria-label="Home page"><img src={logo} alt="Logo" /></Link></li>
                 <li>
                     <h3>Laszlo Nemeth</h3>
                     <hr/>
@@ -46,11 +46,11 @@ export default function Navbar() {
                     <p>Product Manager <FontAwesomeIcon icon={faCode} color="#FF0700" aria-label="Code icon" /> FE Developer</p>
                 </li>
                 <li><hr /></li>
-                <li><NavLink to="/laszlo-nemeth-portfolio" onClick={() => closeMenu()} aria-label="Home page">Home</NavLink></li>
-                <li><NavLink to="/laszlo-nemeth-portfolio/projects" onClick={() => closeMenu()} aria-label="Projects page">Projects</NavLink></li>
-                <li><NavLink to="/laszlo-nemeth-portfolio/work" onClick={() => closeMenu()} aria-label="Work page">Work</NavLink></li>
-                <li><NavLink to="/laszlo-nemeth-portfolio/about" onClick={() => closeMenu()} aria-label="About page">About</NavLink></li>
-                <li><NavLink to="/laszlo-nemeth-portfolio/contact" onClick={() => closeMenu()} aria-label="Contact page">Contact</NavLink></li>
+                <li><NavLink to="/" onClick={() => closeMenu()} aria-label="Home page">Home</NavLink></li>
+                <li><NavLink to="/projects" onClick={() => closeMenu()} aria-label="Projects page">Projects</NavLink></li>
+                <li><NavLink to="/work" onClick={() => closeMenu()} aria-label="Work page">Work</NavLink></li>
+                <li><NavLink to="/about" onClick={() => closeMenu()} aria-label="About page">About</NavLink></li>
+                <li><NavLink to="/contact" onClick={() => closeMenu()} aria-label="Contact page">Contact</NavLink></li>
                 <li>
                     <a
                         href={require("../../../img/cv/Laszlo_Nemeth_Resume.pdf")} 

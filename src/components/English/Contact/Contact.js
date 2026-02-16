@@ -21,7 +21,7 @@ export default function Contact  () {
 
     emailjs.sendForm("service_s607sx9", "template_w49gu6l", e.target, "TtX-buXBtDBrY53XD")
         .then(() => {
-            navigate("/laszlo-nemeth-portfolio/message");
+            navigate("/message");
         }, (error) => {
             alert("Something went wrong. Please try again later");
         });
