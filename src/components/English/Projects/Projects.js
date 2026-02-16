@@ -64,12 +64,12 @@ export default function Projects () {
                         </ul>
                         <h3>Bootcamp Hackathon</h3>
                         <hr />
-                        <p>The challenge was to to create a <span style={{fontWeight: "bold", color: "#7A0400"}}>responsive, static website</span> for a coffee shop, featuring:</p>
+                        <p>This responsive static website was developed for a coffee shop as part of a front-end development challenge. The project highlights <span style={{fontWeight: "bold", color: "#7A0400"}}>responsive layout</span> design, structured content organization, and <span style={{fontWeight: "bold", color: "#7A0400"}}>modern SCSS workflow</span>. The site includes:</p>
                         <ul>
-                            <li>a home page with essential information</li>
-                            <li>a menu page showcasing available offerings</li>
-                            <li>a coffee selection page listing different types of coffee</li>
-                            <li>an "Our Story" page with a reservation contact form</li>
+                            <li>A home page with key business information</li>
+                            <li>A menu page presenting available products</li>
+                            <li>A coffee selection page detailing different coffee types</li>
+                            <li>An “Our Story” page featuring a reservation contact form</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, Gulp.js</span></p>
                     </li>
@@ -103,12 +103,12 @@ export default function Projects () {
                         </ul>
                         <h3>Bootcamp Final Project</h3>
                         <hr />
-                        <p>This mobile-friendly web application utilizes an API to generate <span style={{fontWeight: "bold", color: "#7A0400"}}>random and daily inspirational quotes</span>, offering users features such as:</p>
+                        <p>This mobile-friendly web application integrates an external API to generate both random and daily inspirational quotes. The project focuses on <span style={{fontWeight: "bold", color: "#7A0400"}}>API handling, dynamic filtering</span>, and responsive front-end development. It provides multiple browsing and filtering features, including:</p>
                         <ul>
-                            <li>categorized quotes for easy browsing</li>
-                            <li>alphabetical filtering of authors</li>
-                            <li>keyword search to find specific quotes</li>
-                            <li>contact form with email submission functionality</li>
+                            <li>Categorized quotes for structured navigation</li>
+                            <li>Alphabetical author filtering</li>
+                            <li>Keyword-based quote search</li>
+                            <li>Contact form with email submission functionality</li>
                         </ul>
                         <p><span span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>HTML<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span>, SCSS, JavaScript, Gulp.js</span></p>
                     </li>
@@ -142,11 +142,11 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>The <span style={{fontWeight: "bold", color: "#7A0400"}}>Random Jokes Generator</span> retrieves data from an API, providing users access to a jokes platform while simultaneously tracking the number of jokes read.</p>
+                        <p>This interactive web application fetches data from a public jokes API to deliver random jokes to users. It includes a joke counter feature that tracks how many jokes have been viewed during the session. The project demonstrates <span style={{fontWeight: "bold", color: "#7A0400"}}>API consumption, state management, and interactive UI design</span>.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li>react-bootstrap - integrates the Bootstrap CSS framework</li>
-                            <li>font-awesome - provides an extensive icon library and toolkit</li>
+                            <li>React-Bootstrap - Responsive UI components</li>
+                            <li>Font Awesome - Icon integration</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
@@ -180,12 +180,12 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This <span style={{fontWeight: "bold", color: "#7A0400"}}>search engine utilizes the Wikipedia API </span>to fetch the top five search results initially, with the option to load more on request. Each result links directly to its corresponding Wikipedia entry (wiki page) for further exploration.</p>
+                        <p>This search engine application integrates the Wikipedia API to fetch and display the top five search results based on user input, with an option to load additional results dynamically. Each result links directly to its corresponding Wikipedia page for deeper exploration. The project emphasizes <span style={{fontWeight: "bold", color: "#7A0400"}}>API integration, dynamic rendering, and clean user experience design</span>.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li>react-router-dom - enables client-side routing</li>
-                            <li>react-hook-form - handles form validation</li>
-                            <li>react-bootstrap - integrates the Bootstrap CSS framework for styling</li>
+                            <li>react-router-dom - Client-side routing</li>
+                            <li>react-hook-form - Form validation</li>
+                            <li>React-Bootstrap - Responsive UI components</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, Bootstrap<span style={{ fontFamily: '"Times New Roman", Times, serif' }}>5</span></span></p>
                     </li>
@@ -219,14 +219,14 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This mobile-friendly <span style={{fontWeight: "bold", color: "#7A0400"}}>web app is designed for a model and artist</span>, featuring a gallery and a blog section. The contact form is integrated with EmailJS, enabling messages to be sent directly to a Gmail address.</p>
+                        <p>This mobile-responsive portfolio website was built for a model and artist, featuring a dynamic gallery and a blog section. The application focuses on <span style={{fontWeight: "bold", color: "#7A0400"}}>visual presentation, smooth navigation, and user interaction</span>. The contact form is integrated with EmailJS, allowing visitors to send messages directly to a Gmail inbox without requiring a backend server.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li>react-router-dom and hash-link - enables smooth client-side routing</li>
-                            <li>react-alice-carousel - provides an interactive image slider</li>
-                            <li>react-modal-image - supports image zoom functionality</li>
-                            <li>react-hook-form - manages form validation</li>
-                            <li>node-sass - compiles SCSS files into CSS for styling</li>
+                            <li>react-router-dom & react-router-hash-link - Smooth client-side navigation</li>
+                            <li>react-alice-carousel - Interactive image carousel</li>
+                            <li>react-modal-image - Image zoom functionality</li>
+                            <li>react-hook-form - Form validation and handling</li>
+                            <li>SCSS - Modular and responsive styling</li>
                         </ul>
                         <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS</span></p>
                     </li>
@@ -260,16 +260,16 @@ export default function Projects () {
                         </ul>
                         <h3>Freelancing</h3>
                         <hr />
-                        <p>This web application features two main pages: one that lists <span style={{fontWeight: "bold", color: "#7A0400"}}>all products from a MySQL database</span> and another that allows users to <span style={{fontWeight: "bold", color: "#7A0400"}}>add new products with a unique SKU</span> and details such as name, price, size, height, width, length, and weight. The database is hosted on<span style={{ fontFamily: '"Times New Roman", Times, serif' }}> 000</span>webhost and managed via phpMyAdmin.</p>
+                        <p>This web application is a fully functional<span style={{fontWeight: "bold", color: "#7A0400"}}> e-commerce product management system</span> built with React. It features a product listing page that <span style={{fontWeight: "bold", color: "#7A0400"}}>dynamically retrieves data from a cloud database</span>, and a product creation page that allows users to add new products with a unique SKU and detailed attributes (name, price, size, weight, dimensions). The app includes form validation with conditional fields based on product type and responsive design optimized for both desktop and mobile devices. <span style={{fontWeight: "bold", color: "#7A0400"}}>The backend is powered by Supabase</span> and data operations (create, read, delete) are handled securely using its client library.</p>
                         <p><u>Technologies & Libraries Used:</u></p>
                         <ul>
-                            <li>react-router-dom - enables seamless client-side routing</li>
-                            <li>react-hook-form - handles form validation</li>
-                            <li>axios - facilitates HTTP requests for data fetching</li>
-                            <li>mui/material - provides advanced UI components</li>
-                            <li>node-sass - compiles SCSS files into CSS for styling</li>
+                            <li>Supabase - Cloud database and backend services</li>
+                            <li>react-router-dom - Client-side routing</li>
+                            <li>react-hook-form - Form validation and handling</li>
+                            <li>@mui/material - UI component library</li>
+                            <li>SCSS - Modular and responsive styling</li>
                         </ul>
-                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS, PHP, MySQL</span></p>
+                        <p><span style={{fontWeight: "bold", color: "#7A0400"}}>Tech Stack: </span><span>React.js, SCSS, Supabase (PostgreSQL + RESTful API)</span></p>
                     </li>
                 </ul>
             </div>

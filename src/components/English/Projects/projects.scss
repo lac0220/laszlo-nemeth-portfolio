@@ -54,7 +54,7 @@
 
             p {
                 @extend .hyphens;
-                padding: 0 20px 10px;
+                padding: 0 20px 20px;
                 text-align: left;
                 color: $second-text-color;
             }
@@ -179,7 +179,7 @@
 
         ul:nth-child(6),
         ul:nth-child(7) {
-            padding: 0 20px 70px 40px;
+            padding: 0 20px 80px 40px;
             li {
                 @extend .hyphens;
                 padding-bottom: 5px;
@@ -217,7 +217,7 @@
 
             ul:nth-child(6),
             ul:nth-child(7) {
-                padding: 0 20px 50px 40px;
+                padding: 0 20px 80px 40px;
             }
         }
     }
@@ -250,6 +250,7 @@
                 }
 
                 p {
+                    padding: 0 20px 15px;
                     font-size: 1rem; 
                 }
 
@@ -332,7 +333,7 @@
             
             ul:nth-child(6),
             ul:nth-child(7) {
-                padding: 0 20px 40px 40px;
+                padding: 0 20px 70px 40px;
             }
         }
     }
@@ -406,7 +407,7 @@
 
                 ul:nth-child(6),
                 ul:nth-child(7) {
-                    padding: 0 20px 60px 39px;
+                    padding: 0 20px 70px 39px;
                     li {
                         font-size: 1rem;      
                     }
@@ -429,7 +430,7 @@
             
                 ul:nth-child(6),
                 ul:nth-child(7) {
-                    padding: 0 10px 60px 29px;
+                    padding: 0 10px 65px 29px;
                 }
             }
         }
@@ -438,17 +439,24 @@
 
 @media only screen and (max-width: 390px) {
 
-    .projects ul:nth-child(3) li ul:nth-child(2) li {
-        max-width: 265px;
-        .projects-flip-box {
-            &__triangle {
-                left: 225px;
-            } 
+    .projects ul:nth-child(3) li {
+        ul:nth-child(2) li {
+            max-width: 265px;
+            .projects-flip-box {
+                &__triangle {
+                    left: 225px;
+                } 
 
-            img {
-                top: 12%;
-                max-width: 58%;
+                img {
+                    top: 12%;
+                    max-width: 58%;
+                }
             }
+        }
+
+        ul:nth-child(6),
+        ul:nth-child(7) {
+            padding: 0 10px 90px 29px;
         }
     }
 }
