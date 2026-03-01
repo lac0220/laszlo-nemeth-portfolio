@@ -23,17 +23,19 @@
             ul:nth-child(2) li {
                 .work-history-flip-box {
                     @extend .projects-flip-box;
+                    .work-history-flip-box__badge {
+                        @extend .projects-flip-box__badge;
+                        top: 27px;
+                        right: -54px;
+                    }  
+
                     img {
                         top: -10%;
                         right: 22%;
                         max-width: 150%;
                     }
                 }
-                
-                .work-history-flip-box__triangle {
-                    @extend .projects-flip-box__triangle;
-                }    
-                    
+                 
                 .work-history-flip-box__back-site {
                     @extend .projects-flip-box__back-site;
                     a:nth-child(1) {
@@ -72,6 +74,7 @@
                 padding-bottom: 5px;
             } 
         }
+        
         ul:nth-child(2) li {
             min-height: 100px;
             h3 {

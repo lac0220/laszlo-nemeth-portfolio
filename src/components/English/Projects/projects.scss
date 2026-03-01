@@ -54,7 +54,7 @@
 
             p {
                 @extend .hyphens;
-                padding: 0 20px 20px;
+                padding: 0 20px 10px;
                 text-align: left;
                 color: $second-text-color;
             }
@@ -107,13 +107,19 @@
                         overflow: hidden;
                         border-radius: 10px;
                         border: 2px solid $button-color;
-                        &__triangle {
+                        .projects-flip-box__badge {
                             position: absolute;
-                            left: 250px;
-                            z-index: 1;
-                            border-top: 100px solid $button-color;
-                            border-left: 100px solid transparent;
-                        } 
+                            top: 30px;
+                            right: -55px;
+                            transform: rotate(45deg);
+                            z-index: 1000;
+                            padding: 5px 40px;
+                            font-size: 0.75rem;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            background: $button-color;
+                            color: $first-text-color;
+                        }
 
                         img {
                             position: relative;
@@ -138,14 +144,14 @@
                         background-color: $background-color-fourth;
                         color:$first-text-color;
                         a:nth-child(1) {
-                            margin: auto auto -5px;
+                            margin: auto auto 2px;
                             padding: 5px 12px;
                             border: 2px solid $first-text-color;
                             border-radius: 15px;
                             cursor: pointer;
                             font-weight: bold;
                             font-family: $main-font;
-                            font-size: 1.25rem;
+                            font-size: 1.125rem;
                             background-color: $button-color;
                             color: $first-text-color;
                             &:hover {
@@ -156,7 +162,7 @@
                 
                         i:nth-child(2) {
                             margin-left: 3px;
-                            font-size: 3rem;
+                            font-size: 2.5rem;
                         }
                     
                         a:nth-child(3) {
@@ -164,7 +170,7 @@
                             padding: 0 10px;
                             border: 2px solid $first-text-color;
                             border-radius: 10px;
-                            font-size: 2.5rem;
+                            font-size: 2rem;
                             background-color: $button-color;
                             color: $first-text-color;
                             &:hover {
@@ -203,15 +209,9 @@
             column-gap: 48px;
             li ul:nth-child(2) {
                 max-width: 350px;        
-                li .projects-flip-box {
-                    &__triangle {
-                        left: 300px;
-                    } 
-
-                    img {
-                        top: 15%;
-                        max-width: 50%;
-                    }
+                li .projects-flip-box img {
+                    top: 15%;
+                    max-width: 50%;
                 }
             }
 
@@ -262,28 +262,14 @@
                     max-width: 290px;
                     height: 220px; 
                     li {
-                        .projects-flip-box {
-                            &__triangle {
-                                left: 250px;
-                            } 
-                            
-                            img {
-                                top: 12%;
-                                max-width: 55%;
-                            }
+                        .projects-flip-box img {
+                            top: 12%;
+                            max-width: 55%;
                         }
 
                         .projects-flip-box__back-site {
                             a:nth-child(1) {
-                                font-size: 1.125rem;
-                            }
-
-                            i:nth-child(2) {
-                                font-size: 2.5rem;
-                            }
-
-                            a:nth-child(3) {
-                                font-size: 2rem;
+                                margin: auto auto -8px;
                             }
                         }
                     }  
@@ -319,15 +305,9 @@
             li ul:nth-child(2) {
                 max-width: 365px;
                 height: 210px; 
-                li .projects-flip-box {
-                    &__triangle {
-                        left: 325px;
-                    } 
-
-                    img {
-                        top: 11%;
-                        max-width: 42%;
-                    }
+                li .projects-flip-box img {
+                    top: 11%;
+                    max-width: 42%;
                 }
             }
             
@@ -366,19 +346,14 @@
                 ul:nth-child(2) {
                     max-width: 330px;
                     li {
-                        .projects-flip-box {
-                            &__triangle {
-                                left: 290px;
-                            } 
-
-                            img {
-                                top: 11%;
-                                max-width: 48%;
-                            }
+                        .projects-flip-box img {
+                            top: 11%;
+                            max-width: 48%;
                         }
 
                         .projects-flip-box__back-site {
                             a:nth-child(1) {
+                                margin: auto auto -6px;
                                 font-size: 1rem;
                             }
                     
@@ -395,7 +370,7 @@
                             }
 
                             i:nth-child(2) {
-                                font-size: 2.2rem;      
+                                font-size: 2.3rem;      
                             }
                     
                             a:nth-child(3) {
@@ -442,15 +417,9 @@
     .projects ul:nth-child(3) li {
         ul:nth-child(2) li {
             max-width: 265px;
-            .projects-flip-box {
-                &__triangle {
-                    left: 225px;
-                } 
-
-                img {
-                    top: 12%;
-                    max-width: 58%;
-                }
+            .projects-flip-box img {
+                top: 12%;
+                max-width: 58%;
             }
         }
 
@@ -458,12 +427,5 @@
         ul:nth-child(7) {
             padding: 0 10px 90px 29px;
         }
-    }
-}
-
-@media only screen and (max-width: 360px) {
-
-    .projects ul:nth-child(2) {
-        grid-template-columns: repeat(2, 1fr);
     }
 }

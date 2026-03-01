@@ -24,7 +24,7 @@ export default function WorkHistory () {
                         <ul>
                             <li>
                                 <div className="work-history-flip-box" id="background-color-work">
-                                    <div className="work-history-flip-box__triangle" />
+                                    <span className="work-history-flip-box__badge">Visit Company</span>
                                     <img src={img_logo_coding} className="pulse" alt="Coding" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
@@ -33,7 +33,7 @@ export default function WorkHistory () {
                                         aria-label="Marketup s.r.o."
                                         rel="noopener noreferrer" 
                                         target="_blank" 
-                                        >Go to website
+                                        >Company Website
                                     </a>   
                                 </div>
                             </li>
@@ -55,7 +55,7 @@ export default function WorkHistory () {
                         <ul>
                             <li>
                                 <div className="work-history-flip-box" id="background-color-work">
-                                    <div className="work-history-flip-box__triangle" />
+                                    <span className="work-history-flip-box__badge">Visit Company</span>
                                     <img src={img_logo_testing} className="pulse" alt="Testing" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
@@ -64,7 +64,7 @@ export default function WorkHistory () {
                                         aria-label="Clearstream s.r.o."
                                         rel="noopener noreferrer" 
                                         target="_blank" 
-                                        >Go to website
+                                        >Company Website
                                     </a>   
                                 </div>
                             </li>
@@ -86,7 +86,7 @@ export default function WorkHistory () {
                         <ul>
                             <li>
                                 <div className="work-history-flip-box" id="background-color-work">
-                                    <div className="work-history-flip-box__triangle" />
+                                    <span className="work-history-flip-box__badge">Visit Company</span>
                                     <img src={img_logo_api} className="pulse" alt="API" />                      
                                 </div>
                                 <div className="work-history-flip-box__back-site">
@@ -95,7 +95,7 @@ export default function WorkHistory () {
                                         aria-label="Clearstream s.r.o."
                                         rel="noopener noreferrer" 
                                         target="_blank" 
-                                        >Go to website
+                                        >Company Website
                                     </a>   
                                 </div>
                             </li>

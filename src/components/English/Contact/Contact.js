@@ -97,7 +97,7 @@ export default function Contact  () {
                         allowFullScreen=""
                         title="Map"
                     />
-                    <p>Smržových 1035/10, 190 00 Prague 9</p>
+                    <p>Smržových 1035/10, 190 00 Prague</p>
                     <p>Czech Republic</p>
                 </div>
             </div> 

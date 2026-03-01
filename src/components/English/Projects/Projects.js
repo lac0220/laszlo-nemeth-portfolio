@@ -39,7 +39,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-coffee">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_logo_coffee} className="pulse" alt="Coffee shop" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -48,7 +48,7 @@ export default function Projects () {
                                         aria-label="Coffee shop website"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -57,7 +57,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -78,7 +78,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-quotes">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_logo_quotes} className="pulse" alt="Legendary Quotes" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -87,7 +87,7 @@ export default function Projects () {
                                         aria-label="Legendary Quotes website"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -96,7 +96,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -117,7 +117,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-jokes">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_jokes} className="pulse" alt="Jokes generator" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -126,7 +126,7 @@ export default function Projects () {
                                         aria-label="Jokes Generator"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -135,7 +135,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -143,7 +143,7 @@ export default function Projects () {
                         <h3>Freelancing</h3>
                         <hr />
                         <p>This interactive web application fetches data from a public jokes API to deliver random jokes to users. It includes a joke counter feature that tracks how many jokes have been viewed during the session. The project demonstrates <span style={{fontWeight: "bold", color: "#7A0400"}}>API consumption, state management, and interactive UI design</span>.</p>
-                        <p><u>Technologies & Libraries Used:</u></p>
+                        <p><u>Libraries Used:</u></p>
                         <ul>
                             <li>React-Bootstrap - Responsive UI components</li>
                             <li>Font Awesome - Icon integration</li>
@@ -155,7 +155,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-wiki">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_wiki} className="pulse" alt="Wiki search engine" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -164,7 +164,7 @@ export default function Projects () {
                                         aria-label="Wiki search engine"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -173,7 +173,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -181,7 +181,7 @@ export default function Projects () {
                         <h3>Freelancing</h3>
                         <hr />
                         <p>This search engine application integrates the Wikipedia API to fetch and display the top five search results based on user input, with an option to load additional results dynamically. Each result links directly to its corresponding Wikipedia page for deeper exploration. The project emphasizes <span style={{fontWeight: "bold", color: "#7A0400"}}>API integration, dynamic rendering, and clean user experience design</span>.</p>
-                        <p><u>Technologies & Libraries Used:</u></p>
+                        <p><u>Libraries Used:</u></p>
                         <ul>
                             <li>react-router-dom - Client-side routing</li>
                             <li>react-hook-form - Form validation</li>
@@ -194,7 +194,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-model">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_logo_model} className="pulse" alt="Model portfolio" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -203,7 +203,7 @@ export default function Projects () {
                                         aria-label="Model Portfolio"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -212,7 +212,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -220,7 +220,7 @@ export default function Projects () {
                         <h3>Freelancing</h3>
                         <hr />
                         <p>This mobile-responsive portfolio website was built for a model and artist, featuring a dynamic gallery and a blog section. The application focuses on <span style={{fontWeight: "bold", color: "#7A0400"}}>visual presentation, smooth navigation, and user interaction</span>. The contact form is integrated with EmailJS, allowing visitors to send messages directly to a Gmail inbox without requiring a backend server.</p>
-                        <p><u>Technologies & Libraries Used:</u></p>
+                        <p><u>Libraries Used:</u></p>
                         <ul>
                             <li>react-router-dom & react-router-hash-link - Smooth client-side navigation</li>
                             <li>react-alice-carousel - Interactive image carousel</li>
@@ -235,7 +235,7 @@ export default function Projects () {
                         <ul>
                             <li>
                                 <div className="projects-flip-box" id="background-color-e-commerce">
-                                    <div className="projects-flip-box__triangle" />
+                                    <span className="projects-flip-box__badge">View Live Demo</span>
                                     <img src={img_e_commerce} className="pulse" alt="E-commerce" />
                                 </div>
                                 <div className="projects-flip-box__back-site">
@@ -244,7 +244,7 @@ export default function Projects () {
                                         aria-label="E-commerce"
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        >Go to website
+                                        >Open Demo
                                     </a>
                                     <i><FontAwesomeIcon icon={faArrowsUpDown} aria-label="Arrows up-down icon" /></i>
                                     <a
@@ -253,7 +253,7 @@ export default function Projects () {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         >
-                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="Check the code on GitHub" />
+                                        <FontAwesomeIcon icon={faGithub} aria-label="GitHub icon" title="GitHub" />
                                     </a>
                                 </div>
                             </li>
@@ -261,9 +261,8 @@ export default function Projects () {
                         <h3>Freelancing</h3>
                         <hr />
                         <p>This web application is a fully functional<span style={{fontWeight: "bold", color: "#7A0400"}}> e-commerce product management system</span> built with React. It features a product listing page that <span style={{fontWeight: "bold", color: "#7A0400"}}>dynamically retrieves data from a cloud database</span>, and a product creation page that allows users to add new products with a unique SKU and detailed attributes (name, price, size, weight, dimensions). The app includes form validation with conditional fields based on product type and responsive design optimized for both desktop and mobile devices. <span style={{fontWeight: "bold", color: "#7A0400"}}>The backend is powered by Supabase</span> and data operations (create, read, delete) are handled securely using its client library.</p>
-                        <p><u>Technologies & Libraries Used:</u></p>
+                        <p><u>Libraries Used:</u></p>
                         <ul>
-                            <li>Supabase - Cloud database and backend services</li>
                             <li>react-router-dom - Client-side routing</li>
                             <li>react-hook-form - Form validation and handling</li>
                             <li>@mui/material - UI component library</li>
